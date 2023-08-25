@@ -1,0 +1,44 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #bde8bd;/*浅绿色背景*/
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* 居中内容 */
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 15px;
+}
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px; /* 下方间距 */
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
